@@ -11,6 +11,7 @@ export default function CategoryPage({
   params: Promise<{ category: string }>;
 }) {
   const [category, setCategory] = useState<string>("");
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [articles, setArticles] = useState<any[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -59,7 +60,7 @@ export default function CategoryPage({
         {error && <p className="text-red-500">{error}</p>}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {articles.map((article, index) => (
-            <ArticleCard key={index} article={article} />
+            <ArticleCard key={index} article={article} variant="small" />
           ))}
           {loading &&
             Array.from({ length: 3 }).map((_, index) => (

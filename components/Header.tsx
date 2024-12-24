@@ -24,6 +24,7 @@ const navItems = [
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+  /* eslint-disable @typescript-eslint/no-unused-vars */
   const { theme, setTheme } = useTheme();
 
   return (

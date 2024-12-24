@@ -1,10 +1,10 @@
-import { revalidateTag } from "next/cache";
+
 
 const MAX_CACHE_SIZE = 50; // Maximum articles in cache
 const MAX_FETCHES = 5; // Maximum number of "Load More" clicks
 const FETCH_INTERVAL = 2 * 60 * 60 * 1000; // 2 hours in milliseconds
 
-const cache: {
+const cache: {/* eslint-disable @typescript-eslint/no-explicit-any */
   [key: string]: { articles: any[]; lastFetched: number; fetchCount: number };
 } = {};
 

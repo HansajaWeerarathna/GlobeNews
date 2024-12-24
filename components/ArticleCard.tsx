@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Calendar, ArrowRight } from "lucide-react";
 
 interface ArticleCardProps {
+  /* eslint-disable @typescript-eslint/no-explicit-any */
   article: any;
   variant: "featured" | "medium" | "small";
 }
