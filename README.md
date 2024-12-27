@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Building a Modern News Website Without Code 🤯
 
-## Getting Started
+I've been exploring Cursor AI and v0 by Vercel, which led me to create a functional news website using the GNews API 📰. The platform offers users instant access to global news in one convenient location, with browsing capabilities across various categories including Sports, World News, Politics, Entertainment, and more.
 
-First, run the development server:
+## Tools Used
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 1. Planning with O1 🧠
+- Started by outlining project requirements, desired features, and tech stack
+- Used O1 to generate detailed file structure and tailored development workflow
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Development with Cursor AI 💻
+- Generated required code using Cursor AI
+- Handled error resolution
+- Created basic user interface
+- Simplified the overall development process
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. UI Enhancement with V0 🎨
+- Added sleek animations and modern design elements
+- Improved visual appeal and dynamics
+- Enhanced user experience without writing code
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Key Features 🔑
 
-## Learn More
+- **Next.js Caching**: Optimized data fetching for super-fast performance
+- **Type-Safe Development**: Built with TypeScript for reliability
+- **Responsive Design**: Perfect compatibility across all screen sizes
+- **Dark Mode + Modern Animations**: Trendy, sleek, and user-friendly interface
 
-To learn more about Next.js, take a look at the following resources:
+## Project Links 🌍
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Live Demo**: [View Website](https://lnkd.in/g9myWSkQ)
+- **GitHub Repository**: [View Code](https://lnkd.in/gFkuCz5A)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Important Note ⚠️
 
-## Deploy on Vercel
+This is an MVP focusing on UI and basic backend functionality. While not yet ready for commercial deployment, it serves as a solid prototype for future improvements.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+#WebDevelopment #Nextjs #CursorAI #V0 #BuiltWithAI
